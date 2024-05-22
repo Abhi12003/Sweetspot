@@ -1,0 +1,67 @@
+.relative{
+  position: relative;
+}
+
+.sweetspot-footer {
+    background-color: rgb(24, 200, 235);
+    padding: 2rem 0;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .inline3{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    border-radius: 50%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-description {
+    margin-top: 15px;
+    color: #fff1f1;
+    font-size: 46px;
+    font-weight: 600;
+  }
+  
+  .footer-links-title,
+  .footer-legal-title {
+    font-size: 24px;
+    color:#ffffff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-links a:hover {
+    color: #ffffff;
+  }
+  
+  .footer-legal {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .footer-description1{
+    color: #fff1f1;
+  }
+
+  
+  

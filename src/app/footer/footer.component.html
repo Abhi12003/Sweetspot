@@ -1,0 +1,27 @@
+<div class="relative">
+<footer class="sweetspot-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="inline3">
+          
+          <p class="footer-description">{{ description }}</p>
+          </div>
+          <p class="footer-description1">Sweetspot delivery" typically refers to the optimal timing, placement, and method of delivering a product, service, or communication to achieve the best results. In the context of business and marketing.</p>
+        </div>
+        <div class="col-md-4 mt-4">
+          <h3 class="footer-links-title">Links</h3>
+          <ul class="footer-links">
+            <li *ngFor="let link of links">
+              <a [routerLink]="[link.path]">{{ link.label }}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 mt-4">
+          <h3 class="footer-legal-title">Legal</h3>
+          <p class="footer-legal">{{ legal }}</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>  
